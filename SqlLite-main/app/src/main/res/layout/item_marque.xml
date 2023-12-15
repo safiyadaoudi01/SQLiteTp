@@ -1,0 +1,56 @@
+<!-- res/layout/item_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itmarque"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/themeColor"> <!-- Utilisation du drawable pour la bordure -->
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" ID: 12345"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="149dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/libelle"
+        android:layout_width="153dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="155dp"
+        android:layout_height="56dp"
+        android:text="Code  :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawablePadding="4dp"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:text="Libelle:"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawablePadding="4dp"/>
+
+</RelativeLayout>
